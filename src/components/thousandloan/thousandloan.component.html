@@ -1,0 +1,40 @@
+<img src="./../imgs/thousandloan/bg_image_tu.png" class="bgimg">
+<form>
+  <ul>
+    <li class="wid">
+      <p class="mt">
+        <img src="./../imgs/thousandloan/nav_phone.png"/>
+        <input type="text" placeholder="请输入您的手机号">
+      </p>
+    </li>
+    <li class="wid">
+      <p class="mt">
+        <img src="./../imgs/thousandloan/nav_key.png"/>
+        <input class="getyzm" type="text" placeholder="请输入获取的验证码">
+        <span class="yzmclick" id="ButtonVerify_Register">点击获取</span>
+      </p>
+    </li>
+    <li class="shengqing wid">
+      <p ng-click="vm.applyfor()">
+        立即申请
+      </p>
+    </li>
+    <li class="agree" ng-click="vm.toggleagree()">
+      <img src="{{vm.istrue}}">同意《借财童子》借款协议
+    </li>
+    <li class="buzou">
+    </li>
+
+    <li class="kftel">
+      <p>客服电话：400-9677-716</p>
+      <p>客服时间：9:00-18:00</p>
+    </li>
+  </ul>
+</form>
+<!--//弹窗-->
+<div class="showcontent" ng-show="vm.isshow" ng-click="vm.hide()">
+  <div class="show-infor" ng-click="vm.showcontent($event)">
+    <p><img src="./../imgs/thousandloan/tip.png">你输入的手机号已经存在</p>
+    <input type="button" value="下载APP登录已有账号" ng-click="vm.download()">
+  </div>
+</div>

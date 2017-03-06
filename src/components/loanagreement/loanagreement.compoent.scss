@@ -1,0 +1,36 @@
+@import "~base/module.variables.scss"; //ok
+body {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 1.8444rem;
+    margin-bottom: 0.8889rem;
+}
+
+.onetitle {
+    font-size: 1.6667rem;
+}
+
+.content {
+    font-size: 1.1000rem;
+}
+
+.gray {
+    color: #555;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.mtop {
+    margin: 0.8889rem 0;
+}
+
+.marginleft {
+    margin-left: 0.7444rem;
+}

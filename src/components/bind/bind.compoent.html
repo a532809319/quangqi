@@ -1,0 +1,19 @@
+<form name="userForm" novalidate>
+  <ul>
+    <li class="jclogo clearfix"><img src="./../imgs/bind/login_logo.png" >
+    </li>
+    <li class="tel">
+      <img src="./../imgs/register/login_phone.png"/>
+      <input type="text" placeholder="{{vm.palceholder}}" ng-model="vm.userMobno" name="phone">
+    </li>
+    <li class="yzm">
+      <img src="./../imgs/register/denglu_code.png"/>
+      <input type="text" placeholder="请输入验证码" ng-model="vm.verifyCode" required>
+      <input type="button" value="获取验证码" ng-click="vm.getVerifyCode()">
+    </li>
+    <li class="subbtn">
+      <input type="button" value="绑定"
+             ng-click="vm.commitInfo()">
+    </li>
+  </ul>
+</form>

@@ -1,0 +1,41 @@
+@import "~base/module.variables.scss"; //ok
+
+$border: 1px solid #e5e5e5;
+.faretext {
+  background: #FFF;
+  border-top: 1px solid #e5e5e5;
+  .title {
+    color: #333;
+    font-size: 1.3333rem;
+    height: 3.4667rem;
+    line-height: 3.4667rem;
+    border-bottom: $border;
+    margin: 0 1.4222rem;
+    img {
+      width: 1.6rem;
+      margin-right: 0.7111rem;
+      vertical-align: middle;
+    }
+  }
+  ul {
+    margin: 0 1.4222rem;
+    padding: 1.4222rem 0;
+    border-bottom: $border;
+    .faredetail {
+      color: #333;
+      font-size: 1.3333rem;
+      margin-bottom: 0.7111rem;
+    }
+    li {
+      font-size: 1.1556rem;
+      color: #999;
+      margin-bottom: 0.533rem;
+      line-height: 1.7556rem;
+    }
+    span {
+    }
+  }
+  ul:nth-last-of-type(1) {
+    border-bottom: none;
+  }
+}

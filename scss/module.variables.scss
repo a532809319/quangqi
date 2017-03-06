@@ -1,0 +1,165 @@
+//背景白色
+$bg-content:#FFF;
+//背景灰色
+$bg_content_gray:#eef2f3;
+//白色
+$white:#FFFFFF;
+//主题红
+$gmain_color:#ea2f3c;
+//公用文本色
+$gtext_color:#333333;
+//输入框等提示占位符的颜色
+$ghint_color:#cccccc;
+$gtext_color_wt1: #666666;
+$gtext_color_wt2:#999999;
+//线条颜色
+$line_color:#e5e5e5;
+//1-4号字体大小
+$fontsize_sp20:20sp;
+$fontsize_sp18:18sp;
+$fontsize_sp15:15sp;
+$fontsize_sp13:13sp;
+$fontsize_sp9:9sp;
+//圆角的半径
+$cornor-radius:20dp;
+//行间距
+$text-magin-top:8dp;
+//
+//页面样式初始化
+///* css reset www.admin10000.com */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+body {
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td,
+th,
+caption {
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+/* css common */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+:focus,
+a,
+a:active,
+a:focus,
+a:hover,
+button,
+button:focus {
+    outline: 0
+}
+
+
+/*
+  使用方式
+  <div class="content-scroll-y ">
+
+  </div>
+*/
+
+.content-scroll-y {
+  overflow-y: scroll;
+  height: 100%;
+}

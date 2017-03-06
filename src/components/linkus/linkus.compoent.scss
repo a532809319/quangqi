@@ -1,0 +1,54 @@
+@import "~base/module.variables.scss"; //ok
+body {
+  background: #eef2f3;
+}
+
+.main {
+  margin: 1.4222rem;
+  background: #fff;
+  .gzh {
+    color: #333;
+    font-size: 1.0667rem;
+    padding-top: 4.1333rem;
+    text-align: center;
+    img {
+      height: 2.1333rem;
+      margin-right: 0.7111rem;
+      vertical-align: middle;
+    }
+  }
+  .jctz {
+    margin-top: 1.0667rem;
+    text-align: center;
+    font-size: 1.0667rem;
+    color: #ea2f3c;
+  }
+  .ewm {
+    margin-top: 1.6889rem;
+    text-align: center;
+    img {
+      width: 15.5556rem;
+      margin-bottom: 1.6889rem;
+    }
+  }
+  .sys {
+    text-align: center;
+    color: #333;
+    font-size: 1.0667rem;
+    line-height: 1.5667rem;
+  }
+  .kgtel {
+    text-align: center;
+    margin: 0 2.6667rem;
+    border-top: 1px solid #e5e5e5;
+    padding: 1.2444rem 0;
+    margin-top: 8.5778rem;
+    img {
+      width: 2.1333rem;
+      margin-right: 0.7111rem;
+      vertical-align: bottom;
+    }
+    color: #333;
+    font-size: 1.5111rem;
+  }
+}

@@ -1,0 +1,11 @@
+
+node_modules/
+platforms/
+plugins/
+build/
+.tmpbuild/
+.tmp/
+www/
+.idea/
+src/*.js
+src/**/*.js

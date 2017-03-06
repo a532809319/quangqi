@@ -1,0 +1,25 @@
+﻿<form name="userForm" novalidate>
+    <ul>
+        <li class="tel">
+            <img src="./../imgs/register/login_phone.png" />
+            <input type="text" placeholder="请输入您的手机号" ng-model="vm.userMobno" name="phone">
+        </li>
+        <li class="yzm">
+            <img src="./../imgs/register/denglu_code.png" />
+            <input type="text" placeholder="请输入验证码" ng-model="vm.verifyCode" required>
+            <p ng-click="vm.getVerifyCode()" id="ButtonVerify_Register">{{vm.verifyCodeText}}</p>
+        </li>
+        <li class="newpwd">
+            <img src="./../imgs/register/denglu_key.png" />
+            <input type="{{vm.icon_pwd_type}}" placeholder="请输入密码(6-20位数字+字母)" name="pwd" ng-model="vm.userPwd" required="">
+            <img ng-click="vm.toggleEyes()" src="{{vm.icon_pwd_eyes}}">
+        </li>
+        <li class="agrent">
+            <img src="{{vm.getCheckboxIcon()}}" ng-click="vm.toggleCheckbox()" /> 我同意
+            <span ng-click="vm.showRegisterAgreementDialog()">《借款服务与隐私协议》</span>
+        </li>
+        <li class="subbtn">
+            <input type="button" value="立即注册" ng-click="vm.commitInfo()">
+        </li>
+    </ul>
+</form>

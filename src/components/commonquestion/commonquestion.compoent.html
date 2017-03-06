@@ -1,0 +1,140 @@
+<table class="common-question-box">
+    <tr class="questionbox" ng-click="vm.toggleBox(0)">
+        <td class="title">
+            <span> Q1:</span> 千元贷借款需要什么材料？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(0)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td ng-if="vm.isItemVisiable(0)" colspan="2" class="content">
+            <span>A1:</span> 您只需在手机上花3分钟提交以下资料即可完成借款申请了：身份证信息、手机号信息、 银行卡信息及个人基本信息等。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(1)">
+        <td class="title">
+            <span>Q2:</span> 千元贷借款额度是多少、期限有多久？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(1)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(1)">
+            <span>A2:</span> 借款额度为1000元，期限为7~30天。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(2)">
+        <td class="title">
+            <span>Q3:</span> 借款申请提交后多久才能完成审核？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(2)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(2)">
+            <span>A3:</span> 系统会在您提交申请后的30分钟内完成审核，您可以通过【借财】页的【借款进度】 查询审核结果，同时我们也将通过短信告知您结果。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(3)">
+        <td class="title">
+            <span>Q4:</span> 借款费用有哪些？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(3)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(3)">
+            <span>A4:</span> 借款包括利息、服务费以及平台认证费，其中利息为0.1%/日，服务费为 0.4%/日平台认证费为30元/笔,认证费将在借款到账前划扣。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(4)">
+        <td class="title">
+            <span>Q5:</span> 如何还款？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(4)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(4)">
+            <span>A5:</span> 首先确保绑定的银行卡余额充足，然后登录APP，通过【借财】页的【我要还款】 完成还款。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(5)">
+        <td class="title">
+            <span>Q6:</span> 逾期了怎么办？怎么收取逾期费？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(5)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(5)">
+            <span>A6:</span> 逾期后，我们将进行逾期催款，包括但不限于短信、电话等方式。逾期后仍未还款的，我们将逾期不良记录上报央行个人征信中心，届时将会影响个人的信用记录。逾期将额外产生逾期费用，逾期费用为自应还款日起开始计算，每日按借款金额的1%开始计算。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(6)">
+        <td class="title">
+            <span>Q7:</span> 什么是实名认证？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(6)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(6)">
+            <span>A7:</span> 实名认证是将用户相关的个人信息与公安部存储的个人信息进行对比，以验证用户个人 信息的真实性。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(8)">
+        <td class="title">
+            <span>Q8:</span> 实名认证不成功是什么原因？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(8)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(8)">
+            <span>A8:</span> 实名认证不成功通常是以下原因:
+            <br> 1、您的户籍最近发生过迁移，请到户口所在地派出所办理落户手续;
+            <br> 2、您是少数民族，身份证姓名中含有标点符号，请在实名认证时输入包括文字和标点符号的姓名， 并注意应为中文标点。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(9)">
+        <td class="title">
+            <span>Q9:</span> 什么是身份认证？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(9)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(9)">
+            <span>A9:</span> 身份认证是指我们通常肖像识别系统采集用户的肖像信息，并将肖像信息与公安部所存的个人 身份证照片进行对比，以验证用户身份的真实性，防止不法分子冒用用户身份。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(10)">
+        <td class="title">
+            <span>Q10:</span> 身份认证不成功怎么办？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(10)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(10)">
+            <span>A10:</span> 请在光线充足的地方进行身份认证；请注意画面中提示的动作；请不要佩戴眼镜、帽子；请露出耳朵。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(11)">
+        <td class="title">
+            <span>Q11:</span> 什么是银行卡认证？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(11)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(11)">
+            <span>A11:</span> 银行卡认证是指通过用户的相关银行卡信息与用户在银行卡留存的信息进行比对， 以验证用户身份的真实性。
+        </td>
+    </tr>
+    <tr class="questionbox" ng-click="vm.toggleBox(12)">
+        <td class="title">
+            <span>Q12:</span> 银行卡认证不成功是什么原因？
+        </td>
+        <td class="archive"><img ng-src="{{vm.getItemIcon(12)}}"></td>
+    </tr>
+    <tr class="questionbox">
+        <td colspan="2" class="content" ng-if="vm.isItemVisiable(12)">
+            <span>A12:</span> 银行卡认证失败通常是以下原因：
+            <br>1、未开通无卡支付业务，请您拨打银行客服，开通手机端银联无卡支付业务；
+            <br> 2、未开通无卡支付业务，请您拨打银行客服，开通手机端银联无卡支付业务；
+            <br> 3、银行预留手机号码输入有误，请您准确填写；
+            <br> 4、在办理银行卡时预留的是15位的身份证号，请您到银行更新身份信息并重新关联银行卡。
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,169 @@
+@import "~base/module.variables.scss"; //ok
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #ec3633;
+  .bgimg {
+    width: 26.6889rem;
+    margin: 1.3333rem auto 0;
+  }
+}
+
+form {
+  width: 25.7778rem;
+  margin: 0 auto;
+  margin-top: 2.5778rem;
+  ul {
+    li {
+      margin-bottom: 1.6889rem !important;
+      overflow: hidden;
+      .mt {
+        width: 100%;
+        height: 3.5556rem;
+        background: #fff;
+        border-radius: 50px;
+        overflow: hidden;
+      }
+      img {
+        width: 2.0444rem;
+        margin-left: 1.0667rem;
+        vertical-align: middle;
+        float: left;
+        line-height: 3.5556rem;
+        margin-top: 0.7844rem;
+      }
+      input {
+        border: none;
+        border: none;
+        height: 100%;
+        width: 22.0002rem;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        text-indent: 1.0667rem;
+        font-size: 1.2444rem;
+        color: #999;
+      }
+      .getyzm {
+        width: 15.5556rem;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        border-right: 1px dashed #ec3633;
+        float: left;
+      }
+      .yzmclick {
+        display: inline-block;
+        width: 6.5rem;
+        color: #ec3633;
+        text-align: center;
+        line-height: 100%;
+        font-size: 1.2000rem;
+        height: 100%;
+        float: left;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        line-height: 100%;
+        float: left;
+        line-height: 3.5556rem;
+      }
+    }
+    .agree {
+      color: #333;
+      font-size: 1.0667rem;
+      img {
+        width: 2.0444rem;
+        float: none !important;
+        margin-top: 0 !important;
+        margin-right: 1.0667rem;
+      }
+    }
+    .buzou {
+      width: 100%;
+      height: 8.4444rem;
+      background: url('../../imgs/thousandloan/bg_image_buzhou.png') no-repeat;
+      background-size: 100% 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0 !important;
+      }
+    }
+    .shengqing {
+      width: 100%;
+      height: 3.5556rem;
+      background: url('../../imgs/thousandloan/nav_button_sq.png') no-repeat;
+      background-size: 100% 100%;
+      p {
+        color: #841a25;
+        font-size: 1.6000rem;
+        text-align: center;
+        line-height: 3.5556rem;
+        font-weight: bold;
+      }
+    }
+    .kftel {
+      p {
+        font-size: 0.8888rem;
+        color: #fff;
+      }
+      p:nth-of-type(1) {
+        float: left;
+        margin-left: 0.588rem;
+      }
+      p:nth-of-type(2) {
+        float: right;
+        margin-right: 0.588rem;
+      }
+    }
+    .wid {
+      width: 98%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.showcontent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  .close {
+    //position: absulate;
+  }
+  .show-infor {
+    width: 25.777rem;
+    height: 15.1111rem;
+    border-radius: 10px;
+    background: #fff;
+    top: 50%;
+    margin-top: -7.5555rem;
+    left: 50%;
+    margin-left: -12.8885rem;
+    position: fixed;
+    p {
+      margin-top: 3.5556rem;
+      text-align: center;
+      color: #333;
+      font-size: 1.4222rem;
+      img {
+        width: 2.2222rem;
+        margin-right: 2rem;
+        vertical-align: middle;
+      }
+    }
+    input {
+      width: 20.8889rem;
+      height: 3.5556rem;
+      background: #428de9;
+      color: #fff;
+      font-size: 1.4222rem;
+      margin: 0 2.444rem;
+      margin-top: 3.5556rem;
+      border: 0;
+      border-radius: 10px;
+    }
+  }
+}

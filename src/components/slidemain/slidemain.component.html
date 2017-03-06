@@ -1,0 +1,13 @@
+<p class="thoundtext">千元贷</p>
+<p class="thoudnum">￥<em>1000</em></p>
+<div class="jkdate">
+  <p><img src="./../imgs/slidemain/home_time.png"><span>借款期限：<em ng-bind="vm.progress"></em>天</span></p>
+  <p><img src="./../imgs/slidemain/home_huankuan.png"><span>借款期限：<em>12天</em></span></p>
+</div>
+<rzslider rz-slider-options='vm.options' rz-slider-model='vm.progress'>
+</rzslider>
+<p class="start"><em ng-bind="vm.progress"></em>天</p>
+<p class="sum"><em>30</em>天</p>
+<p class="borrow">
+  <input type="button" value="我要借款">
+</p>

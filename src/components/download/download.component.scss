@@ -1,0 +1,43 @@
+@import "~base/module.variables.scss"; //ok
+body {
+  background: #ec3633 !important;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.one {
+  position: absolute;
+  top: 1.6000rem;
+  width: 27.1111rem;
+  left: 50%;
+  margin-left: -13.5555rem;
+  text-align: center;
+}
+
+.phone {
+  position: absolute;
+  top: 15.6444rem;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+  div {
+    height: 4.3556rem;
+    width: 25.7333rem;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -2px;
+    text-align: center;
+    line-height: 4.3556rem;
+    color: #841a25;
+    font-size: 1.5111rem;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}
